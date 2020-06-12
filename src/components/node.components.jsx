@@ -3,7 +3,7 @@ import React, {useState, Fragment} from 'react';
 import ReactFlow, {addEdge, Background, Controls, MiniMap} from 'react-flow-renderer';
 
 const initialElements = [
-    {id: '1', type: 'input', data:{label: 'Node'}, position: {x:0,y:0}}
+    {id: '1', type: 'input', data:{label: 'Mind Node'}, position: {x:0,y:0}}
 ]
 const onLoad = (reactFlowInstance) =>  {
     reactFlowInstance.fitView();
